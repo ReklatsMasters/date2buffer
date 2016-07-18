@@ -7,6 +7,13 @@
 
 Convert Date <-> Buffer
 
+## Usage
+```js
+const d2b = require('date2buffer')
+
+d2b.encode(new Date())
+```
+
 ## API
 
 This module used [abstract-encoding](https://github.com/mafintosh/abstract-encoding) api
