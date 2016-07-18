@@ -3,6 +3,7 @@
 var test = require('tape')
 var d2b = require('./')
 var Buffer = require('safe-buffer').Buffer
+var bufferEqual = require('buffer-equal')
 
 var time1 = 1456909977176
 var time2 = 1458520589912
@@ -14,8 +15,8 @@ test('encode', function (t) {
   var buf1 = d2b.encode(new Date(time1))
   var buf2 = d2b.encode(new Date(time2))
 
-  t.ok(buf1.equals(time1b), 'low buffer < INT32')
-  t.ok(buf2.equals(time2b), 'low buffer > INT32')
+  t.ok(bufferEqual(buf1, time1b), 'low buffer < INT32')
+  t.ok(bufferEqual(buf2, time2b), 'low buffer > INT32')
 
   t.end()
 })
