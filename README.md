@@ -1,5 +1,5 @@
 # date2buffer
-[![travis](https://travis-ci.org/ReklatsMasters/date2buffer.svg?style=flat)](https://travis-ci.org/ReklatsMasters/date2buffer)
+[![travis](https://travis-ci.org/reklatsmasters/date2buffer.svg?style=flat)](https://travis-ci.org/reklatsmasters/date2buffer)
 [![npm](https://img.shields.io/npm/v/date2buffer.svg?style=flat)](https://npmjs.org/package/date2buffer)
 [![license](https://img.shields.io/npm/l/date2buffer.svg?style=flat)](https://npmjs.org/package/date2buffer)
 [![abstract-encoding](https://img.shields.io/badge/abstract--encoding-compliant-brightgreen.svg?style=flat)](https://github.com/mafintosh/abstract-encoding)
